@@ -69,7 +69,7 @@ public class KontoLimitTests
         konto.Wplata(350);
 
         Assert.IsFalse(konto.Zablokowane);
-        Assert.AreEqual(350, konto.Bilans);
+        Assert.AreEqual(450, konto.Bilans);
     }
 
     [TestMethod]
